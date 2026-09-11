@@ -1,0 +1,7 @@
+pedrofernand.es {
+    reverse_proxy react-app:80
+}
+
+www.pedrofernand.es {
+    redir https://pedrofernand.es{uri}
+}
